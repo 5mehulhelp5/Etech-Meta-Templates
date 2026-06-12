@@ -5,6 +5,7 @@
             <item name="provider" xsi:type="string">etechflow_metatemplate_form.etechflow_metatemplate_form_data_source</item>
         </item>
         <item name="label" xsi:type="string" translate="true">Template Information</item>
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
     </argument>
     <settings>
         <buttons>
