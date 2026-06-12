@@ -89,7 +89,6 @@
                 <dataType>number</dataType>
                 <label translate="true">Priority</label>
                 <notice translate="true">Higher priority wins when multiple rules match.</notice>
-                <default>0</default>
             </settings>
         </field>
         <field name="is_active" formElement="select" sortOrder="60">
