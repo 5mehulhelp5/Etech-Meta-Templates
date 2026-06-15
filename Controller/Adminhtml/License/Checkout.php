@@ -27,9 +27,9 @@ class Checkout extends Action
 
     /** Plan slugs -> [name, amount in cents, display]. Tier-based plans. */
     private const PLAN_INFO = [
-        'mt_starter'      => ['name' => 'Meta Templates — Starter',      'amount' => 900,  'display' => '$9/month'],
-        'mt_professional' => ['name' => 'Meta Templates — Professional', 'amount' => 1900, 'display' => '$19/month'],
-        'mt_enterprise'   => ['name' => 'Meta Templates — Enterprise',   'amount' => 3900, 'display' => '$39/month'],
+        'metatpl_weekly'  => ['name' => 'Meta Templates — Weekly',  'amount' => 900,   'display' => '$9/week'],
+        'metatpl_monthly' => ['name' => 'Meta Templates — Monthly', 'amount' => 2900,  'display' => '$29/month'],
+        'metatpl_yearly'  => ['name' => 'Meta Templates — Yearly',  'amount' => 29000, 'display' => '$290/year'],
     ];
 
     public function __construct(
