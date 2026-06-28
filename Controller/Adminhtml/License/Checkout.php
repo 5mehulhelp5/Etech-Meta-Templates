@@ -13,8 +13,8 @@ use Magento\Framework\HTTP\Client\Curl;
 
 /**
  * Starts checkout by delegating to the eTechFlow webstore licensing broker
- * (module.etechflow.com). The broker opens a Paddle transaction on the
- * webstore's OWN Paddle account and returns the hosted pay URL; the portal
+ * (module.etechflow.com). The broker opens a Stripe transaction on the
+ * webstore's OWN Stripe account and returns the hosted pay URL; the portal
  * still issues the SP-XXXX key once payment clears. No card keys live in
  * Magento. Same redirect flow as the prior Stripe checkout.
  */
